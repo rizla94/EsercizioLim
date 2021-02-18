@@ -1,0 +1,68 @@
+body{
+  background-image:url("../image/background.jpg");
+  background-size:cover;
+  padding-top: 40px;
+}
+
+.container{
+    margin: auto;
+    width: 800px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 50px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.row , .row-button{
+  text-align:center;
+}
+
+.logo{
+  width: 130px;
+  margin: auto;
+}
+
+.logo-text{
+font-size: 25px;
+color: #7CFC00;
+font-weight:bold;
+}
+
+.row-button{
+  background-color: #7CFC00;
+  padding: 10px;
+}
+
+.row-doc{
+  padding: 15px;
+  color: white;
+}
+
+div.row-button >button{
+  font-size: 10px;
+}
+
+.titolo{
+  font-size: 22px;
+  font-weight: bold;
+}
+
+#medio , #carico , #scarico{
+  ;
+  border-radius: 5px 5px 5px 5px;
+  height: 23px;
+}
+
+#medio{
+  background-color: orange;
+  width: 40%;
+}
+
+#carico{
+  background-color:#7CFC00;
+  width: 65%;
+}
+
+#scarico{
+  background-color:red;
+  width: 20%;
+}
